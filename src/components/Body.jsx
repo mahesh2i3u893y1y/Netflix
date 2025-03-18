@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 const Body = () => {
     const  appRouter = createBrowserRouter([
         {
-            path:"/login",
+            path:"/",
             element:<Login/>
         },
         {

@@ -51,7 +51,7 @@ const Header = () => {
           navigate('/browser')
         } else {
             dispatch(removeUser())
-            navigate('/login')
+            navigate('/')
           // ...
         }
       });
